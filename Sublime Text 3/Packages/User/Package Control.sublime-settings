@@ -1,0 +1,32 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Bootstrap 4x Autocomplete",
+		"Bootstrap 4x Snippets",
+		"Django",
+		"Django Starter",
+		"Django Syntax",
+		"DocBlockr_Python",
+		"EditorConfig",
+		"Emmet",
+		"Emmet Css Snippets",
+		"Git Conflict Resolver",
+		"Highlight Trailing Whitespace",
+		"JSONComma",
+		"JSONLint",
+		"MarkdownEditing",
+		"MarkdownPreview",
+		"MarkdownTOC",
+		"More Python Completions",
+		"Neon Color Scheme",
+		"Package Control",
+		"Python 3",
+		"Python Completions",
+		"Python Improved",
+		"TrailingSpaces"
+	]
+}
