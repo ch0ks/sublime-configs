@@ -2,20 +2,22 @@
 
 <!-- MarkdownTOC -->
 
-- Introduction
-- How It Works
-- Installation
-- Syncronization
-- Troubleshoot
+1. [Introduction](#introduction)
+1. [How It Works](#how-it-works)
+1. [Installation](#installation)
+1. [Syncronization](#syncronization)
+1. [Troubleshoot](#troubleshoot)
 
 <!-- /MarkdownTOC -->
 
+<a id="introduction"></a>
 ## Introduction
 
-The purpose of this respotiroy is to keep my Sublime Text 3 configuration files so I can syncronize it through all my laptops where I code. 
+The purpose of this respotiroy is to keep my Sublime Text 3 configuration files so I can syncronize it through all my laptops where I code.
 
 feel free to fork and submit your changes, I am always open to test new things.
 
+<a id="how-it-works"></a>
 ## How It Works
 
 Sublime Text 3 keeps all its configuration files in a unique folder. Depending on your operating system, this folder is located in:
@@ -24,6 +26,7 @@ Sublime Text 3 keeps all its configuration files in a unique folder. Depending o
 * OS X: ~/Library/Application Support/Sublime Text 3
 * Windows: %APPDATA%\Sublime Text 3
 
+<a id="installation"></a>
 ## Installation
 
 To install this configuration files and keep them updated do the following.
@@ -50,6 +53,7 @@ $ mklink /J  "C:\PATH\To\Repo\Sublime Text 3" "%APPDATA%\Sublime Text 3"
 
 Start Sublime 3 Text. It will take a little bit longer because it is recreating the cache.
 
+<a id="syncronization"></a>
 ## Syncronization
 
 Let's say that you made some changes on your current configuration and want it to be reflected in your other computers. So run the following commands:
@@ -87,6 +91,7 @@ $ git pull
 
 Now start Sublime Text 3 as always, it can take a little longer because of the cache recreation.
 
+<a id="troubleshoot"></a>
 ## Troubleshoot
 
-If everything fails or your Sublime Text 3 configuration files got corrupted, DO NOT SYNC to the latest version, instead just delete the current repository folder and follow the steps in the installation section.
+If everything fails or your Sublime Text 3 configuration files got corrupted, DO NOT SYNC to the latest version, instead just delete the current repository folder and follow the steps in the Installation section.
