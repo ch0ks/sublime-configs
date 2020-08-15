@@ -5,7 +5,7 @@
 1. [Introduction](#introduction)
 1. [How It Works](#how-it-works)
 1. [Installation](#installation)
-1. [Syncronization](#syncronization)
+1. [Synchronization](#synchronization)
 1. [Troubleshoot](#troubleshoot)
 
 <!-- /MarkdownTOC -->
@@ -13,9 +13,9 @@
 <a id="introduction"></a>
 ## Introduction
 
-The purpose of this respotiroy is to keep my Sublime Text 3 configuration files so I can syncronize it through all my laptops where I code.
+The purpose of this repository is to keep my Sublime Text 3 configuration files so I can synchronize it through all my laptops where I code.
 
-feel free to fork and submit your changes, I am always open to test new things.
+Feel free to fork and submit your changes, I am always open to test new things.
 
 <a id="how-it-works"></a>
 ## How It Works
@@ -36,25 +36,25 @@ First kill all instances of Sublime Text 3, now run the command depending on you
 **OS X**
 
 ```
-ln -s "/PATH/To/Repo/Sublime Text 3" "~/Library/Application Support/Sublime Text 3"
+ln -s "~/github/ch0ks-sublime-configs/Sublime Text 3" "~/Library/Application Support/Sublime Text 3"
 ```
 
 **Linux**
 
 ```
-ln -s "/PATH/To/Repo/Sublime Text 3" "~/.config/sublime-text-3"
+ln -s "~/github/ch0ks-sublime-configs/Sublime Text 3" "~/.config/sublime-text-3"
 ```
 
 **Windows**
 
 ```
-$ mklink /J  "C:\PATH\To\Repo\Sublime Text 3" "%APPDATA%\Sublime Text 3"
+$ mklink /J "%UserProfile%\ch0ks-sublime-configs\Sublime Text 3" "%APPDATA%\Sublime Text 3"
 ```
 
 Start Sublime 3 Text. It will take a little bit longer because it is recreating the cache.
 
-<a id="syncronization"></a>
-## Syncronization
+<a id="synchronization"></a>
+## Synchronization
 
 Let's say that you made some changes on your current configuration and want it to be reflected in your other computers. So run the following commands:
 
@@ -62,7 +62,7 @@ Let's say that you made some changes on your current configuration and want it t
 
 Change to the directory where the repository is stored.
 
-`` $ cd /PATH/To/Repo/``
+`` $ cd "~/github/ch0ks-sublime-configs/Sublime Text 3"``
 
 Sync with the remote repository to the latest version.
 
@@ -85,7 +85,7 @@ Follow these steps if you have already installed the files in this computer. If 
 Close all instances of Sublime Text 3, change to the directory where the repository is stored and run the following commands:
 
 ```
-$ cd /PATH/To/Repo/
+$ cd "~/github/ch0ks-sublime-configs/Sublime Text 3"
 $ git pull
 ```
 
