@@ -1,5 +1,7 @@
 # Ch0ks' Sublime Text 3 Configuration Sync
 
+[![Join the chat at https://gitter.im/ch0ks/ch0ks-sublime-configs](https://badges.gitter.im/ch0ks/ch0ks-sublime-configs.svg)](https://gitter.im/ch0ks/ch0ks-sublime-configs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 <!-- MarkdownTOC -->
 
 1. [Introduction](#introduction)
