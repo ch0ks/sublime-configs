@@ -4,6 +4,7 @@ Local/
 *.log
 *.bk
 *.bak
+.env
 Package Control.last-run
 Package Control.ca-list
 Package Control.ca-bundle
