@@ -4,8 +4,6 @@ Personal configuration for syncing among different development machines.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/34xtu4uebe067j1f/branch/master?svg=true)](https://ci.appveyor.com/project/ch0ks/ch0ks-sublime-configs/branch/master)
 [![Gitter](https://badges.gitter.im/ch0ks/ch0ks-sublime-configs.svg)](https://gitter.im/ch0ks/ch0ks-sublime-configs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![codecov](https://codecov.io/gh/ch0ks/ch0ks-sublime-configs/branch/master/graph/badge.svg)](https://codecov.io/gh/ch0ks/ch0ks-sublime-configs)
-
 
 <!-- MarkdownTOC -->
 
