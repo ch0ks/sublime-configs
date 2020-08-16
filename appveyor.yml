@@ -1,4 +1,5 @@
 version: 1.0.{build}
+build: off
 notifications:
 - provider: Webhook
   url: https://webhooks.gitter.im/e/da9968361f04e8da6bbc
